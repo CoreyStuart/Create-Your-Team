@@ -166,7 +166,7 @@ createTeam = team => {
      <div class="card">
             <div class="card_header bg-secondary text-white">
             <h2 class="card-title">${manager.name}</h2>
-            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.role}</h3>
+            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${manager.role()}</h3>
             </div>
          <div class="body text-dark">
             <div class="li-container">
@@ -205,7 +205,7 @@ createTeam = team => {
      <div class="card">
             <div class="card_header bg-secondary text-white">
             <h2 class="card-title">${intern.name}</h2>
-            <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>${intern.role}</h3>
+            <h3 class="card-title"><i class="fas fa-mug-hot mr-20"></i>${intern.role()}</h3>
             </div>
          <div class="body text-dark">
             <div class="li-container">
